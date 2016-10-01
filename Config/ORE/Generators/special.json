@@ -1,0 +1,457 @@
+{
+	"ore": [{
+		"name": "Iron",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:iron_ore": 5
+		},
+		"genTries": 7,
+		"blockCount": 7,
+		"minHeight": 5,
+		"maxHeight": 70,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 100,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Gold",
+		"type": "Vein",
+		"blocks": {
+			"minecraft:gold_ore": 3
+		},
+		"genTries": 7,
+		"blockCount": 6,
+		"minHeight": 5,
+		"maxHeight": 40,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 75,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Coal",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:coal_ore": 6
+		},
+		"genTries": 7,
+		"blockCount": 10,
+		"minHeight": 5,
+		"maxHeight": 70,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 100,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Diamond",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:diamond_ore": 2
+		},
+		"genTries": 7,
+		"blockCount": 5,
+		"minHeight": 5,
+		"maxHeight": 25,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 70,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Lapis",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:lapis_ore": 4
+		},
+		"genTries": 7,
+		"blockCount": 5,
+		"minHeight": 5,
+		"maxHeight": 36,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 50,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Emerald",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:emerald_ore": 1
+		},
+		"genTries": 7,
+		"blockCount": 3,
+		"minHeight": 5,
+		"maxHeight": 30,
+		"params": {
+			"sparse": true
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 10,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Redstone",
+		"type": "Cluster",
+		"blocks": {
+			"minecraft:redstone_ore": 4
+		},
+		"genTries": 7,
+		"blockCount": 7,
+		"minHeight": 5,
+		"maxHeight": 40,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 100,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Lead",
+		"type": "Vein",
+		"blocks": {
+			"substratum:ore;5": 2
+		},
+		"genTries": 7,
+		"blockCount": 4,
+		"minHeight": 5,
+		"maxHeight": 40,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 50,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Silver",
+		"type": "Vein",
+		"blocks": {
+			"substratum:ore;4": 3
+		},
+		"genTries": 7,
+		"blockCount": 4,
+		"minHeight": 5,
+		"maxHeight": 40,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 80,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Copper",
+		"type": "Vein",
+		"blocks": {
+			"substratum:ore;0": 5
+		},
+		"genTries": 7,
+		"blockCount": 7,
+		"minHeight": 5,
+		"maxHeight": 60,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 100,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Platinum",
+		"type": "Vein",
+		"blocks": {
+			"substratum:ore;6": 2
+		},
+		"genTries": 7,
+		"blockCount": 2,
+		"minHeight": 5,
+		"maxHeight": 30,
+		"params": {
+			"sparse": true
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 10,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Tin",
+		"type": "Cluster",
+		"blocks": {
+			"substratum:ore;1": 6
+		},
+		"genTries": 7,
+		"blockCount": 8,
+		"minHeight": 5,
+		"maxHeight": 60,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 85,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Nickel",
+		"type": "Vein",
+		"blocks": {
+			"substratum:ore;2": 3
+		},
+		"genTries": 7,
+		"blockCount": 3,
+		"minHeight": 5,
+		"maxHeight": 25,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 50,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Apatite",
+		"type": "geode",
+		"blocks": {
+			"forestry:resources;0": 2
+		},
+		"genTries": 1,
+		"blockCount": 20,
+		"minHeight": 10,
+		"maxHeight": 64,
+		"params": {
+			"width": 7,
+			"height": 7,
+			"hollow": false,
+			"outline": "minecraft:stone"
+		},
+		"replaceable": [
+			"minecraft:stone:*",
+			"minecraft:dirt",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 20,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Bauxite",
+		"type": "Cluster",
+		"blocks": {
+			"immersiveengineering:ore;1": 1
+		},
+		"genTries": 5,
+		"blockCount": 4,
+		"minHeight": 5,
+		"maxHeight": 50,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 50,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Uranium",
+		"type": "Cluster",
+		"blocks": {
+			"immersiveengineering:ore;5": 1
+		},
+		"genTries": 5,
+		"blockCount": 4,
+		"minHeight": 5,
+		"maxHeight": 20,
+		"params": {
+			"sparse": true
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 10,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Resonating Ore",
+		"type": "Cluster",
+		"blocks": {
+			"deepresonance:resonating_ore": 3
+		},
+		"genTries": 5,
+		"blockCount": 5,
+		"minHeight": 5,
+		"maxHeight": 50,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 60,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Bauxite",
+		"type": "Cluster",
+		"blocks": {
+			"actuallyadditions:blockMisc;3": 5
+		},
+		"genTries": 5,
+		"blockCount": 4,
+		"minHeight": 5,
+		"maxHeight": 50,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone:*",
+			"minecraft:gravel",
+			"chisel:*"
+		],
+		"chunkChance": 60,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+
+	}]
+}
