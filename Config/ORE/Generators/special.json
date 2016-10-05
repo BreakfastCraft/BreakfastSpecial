@@ -15,8 +15,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 100,
 		"biomeRestriction": "none",
@@ -40,8 +39,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 75,
 		"biomeRestriction": "none",
@@ -65,8 +63,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 100,
 		"biomeRestriction": "none",
@@ -90,8 +87,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 70,
 		"biomeRestriction": "none",
@@ -115,8 +111,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 50,
 		"biomeRestriction": "none",
@@ -140,8 +135,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 10,
 		"biomeRestriction": "none",
@@ -165,8 +159,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 100,
 		"biomeRestriction": "none",
@@ -178,7 +171,7 @@
 		"name": "Lead",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore": 2
+			"substratum:ore;5": 2
 		},
 		"genTries": 7,
 		"blockCount": 4,
@@ -190,8 +183,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel" 
 		],
 		"chunkChance": 50,
 		"biomeRestriction": "none",
@@ -203,7 +195,7 @@
 		"name": "Silver",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore": 3
+			"substratum:ore;4": 3
 		},
 		"genTries": 7,
 		"blockCount": 4,
@@ -215,8 +207,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 80,
 		"biomeRestriction": "none",
@@ -228,7 +219,7 @@
 		"name": "Copper",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore": 5
+			"substratum:ore;0": 5
 		},
 		"genTries": 7,
 		"blockCount": 7,
@@ -240,8 +231,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 100,
 		"biomeRestriction": "none",
@@ -253,7 +243,7 @@
 		"name": "Platinum",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore": 2
+			"substratum:ore;6": 2
 		},
 		"genTries": 7,
 		"blockCount": 2,
@@ -265,8 +255,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 10,
 		"biomeRestriction": "none",
@@ -278,7 +267,7 @@
 		"name": "Tin",
 		"type": "cluster",
 		"blocks": {
-			"substratum:ore": 6
+			"substratum:ore;1": 6
 		},
 		"genTries": 7,
 		"blockCount": 8,
@@ -290,8 +279,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 85,
 		"biomeRestriction": "none",
@@ -303,7 +291,7 @@
 		"name": "Nickel",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore": 3
+			"substratum:ore;2": 3
 		},
 		"genTries": 7,
 		"blockCount": 3,
@@ -315,8 +303,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 50,
 		"biomeRestriction": "none",
@@ -343,8 +330,7 @@
 		"replaceable": [
 			"minecraft:stone",
 			"minecraft:dirt",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 20,
 		"biomeRestriction": "none",
@@ -356,7 +342,7 @@
 		"name": "Bauxite",
 		"type": "cluster",
 		"blocks": {
-			"immersiveengineering:ore": 1
+			"immersiveengineering:ore;1": 1
 		},
 		"genTries": 5,
 		"blockCount": 4,
@@ -368,8 +354,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 50,
 		"biomeRestriction": "none",
@@ -381,7 +366,7 @@
 		"name": "Uranium",
 		"type": "cluster",
 		"blocks": {
-			"immersiveengineering:ore": 1
+			"immersiveengineering:ore;5": 1
 		},
 		"genTries": 5,
 		"blockCount": 4,
@@ -393,8 +378,7 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 10,
 		"biomeRestriction": "none",
@@ -418,40 +402,13 @@
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
+			"minecraft:gravel"
 		],
 		"chunkChance": 60,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
 		"dimensions": []
-
-	}, {
-		"name": "Bauxite",
-		"type": "cluster",
-		"blocks": {
-			"actuallyadditions:blockMisc": 5
-		},
-		"genTries": 5,
-		"blockCount": 4,
-		"minHeight": 5,
-		"maxHeight": 50,
-		"params": {
-			"sparse": false
-		},
-		"replaceable": [
-			"minecraft:dirt",
-			"minecraft:stone",
-			"minecraft:gravel",
-			"chisel"
-		],
-		"chunkChance": 60,
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionsRestriction": "none",
-		"dimensions": []
-
 
 	}]
 }
