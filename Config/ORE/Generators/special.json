@@ -267,7 +267,7 @@
 		"name": "Tin",
 		"type": "cluster",
 		"blocks": {
-			"base:ore_tin: 6
+			"base:ore_tin": 6
 		},
 		"genTries": 7,
 		"blockCount": 8,
@@ -342,7 +342,7 @@
 		"name": "Bauxite",
 		"type": "cluster",
 		"blocks": {
-			"base:bauxite;1": 1
+			"base:ore_bauxite": 1
 		},
 		"genTries": 5,
 		"blockCount": 4,
