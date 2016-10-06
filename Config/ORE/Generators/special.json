@@ -171,7 +171,7 @@
 		"name": "Lead",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore;5": 2
+			"base:ore_lead": 2
 		},
 		"genTries": 7,
 		"blockCount": 4,
@@ -195,7 +195,7 @@
 		"name": "Silver",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore;4": 3
+			"base:ore_silver": 3
 		},
 		"genTries": 7,
 		"blockCount": 4,
@@ -219,7 +219,7 @@
 		"name": "Copper",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore;0": 5
+			"base:ore_copper": 5
 		},
 		"genTries": 7,
 		"blockCount": 7,
@@ -243,7 +243,7 @@
 		"name": "Platinum",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore;6": 2
+			"base:ore_platinum": 2
 		},
 		"genTries": 7,
 		"blockCount": 2,
@@ -267,7 +267,7 @@
 		"name": "Tin",
 		"type": "cluster",
 		"blocks": {
-			"substratum:ore;1": 6
+			"base:ore_tin: 6
 		},
 		"genTries": 7,
 		"blockCount": 8,
@@ -291,7 +291,7 @@
 		"name": "Nickel",
 		"type": "vein",
 		"blocks": {
-			"substratum:ore;2": 3
+			"base:ore_nickel": 3
 		},
 		"genTries": 7,
 		"blockCount": 3,
@@ -342,7 +342,7 @@
 		"name": "Bauxite",
 		"type": "cluster",
 		"blocks": {
-			"immersiveengineering:ore;1": 1
+			"base:bauxite;1": 1
 		},
 		"genTries": 5,
 		"blockCount": 4,
@@ -366,7 +366,7 @@
 		"name": "Uranium",
 		"type": "cluster",
 		"blocks": {
-			"immersiveengineering:ore;5": 1
+			"base:ore_uranium": 1
 		},
 		"genTries": 5,
 		"blockCount": 4,
