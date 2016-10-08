@@ -7,7 +7,7 @@
 		},
 		"genTries": 5,
 		"blockCount": 7,
-		"minHeight": 5,
+		"minHeight": 35,
 		"maxHeight": 70,
 		"params": {
 			"sparse": false
@@ -31,7 +31,7 @@
 		},
 		"genTries": 3,
 		"blockCount": 6,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 40,
 		"params": {
 			"sparse": true
@@ -55,7 +55,7 @@
 		},
 		"genTries": 4,
 		"blockCount": 10,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 70,
 		"params": {
 			"sparse": false
@@ -79,7 +79,7 @@
 		},
 		"genTries": 3,
 		"blockCount": 5,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 25,
 		"params": {
 			"sparse": true
@@ -103,7 +103,7 @@
 		},
 		"genTries": 7,
 		"blockCount": 5,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 36,
 		"params": {
 			"sparse": false
@@ -127,7 +127,7 @@
 		},
 		"genTries": 7,
 		"blockCount": 3,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 30,
 		"params": {
 			"sparse": true
@@ -151,7 +151,7 @@
 		},
 		"genTries": 3,
 		"blockCount": 7,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 40,
 		"params": {
 			"sparse": false
@@ -171,11 +171,11 @@
 		"name": "Lead",
 		"type": "ore",
 		"blocks": {
-			"base:ore_lead": 2
+			"base:ore_lead": 5
 		},
-		"genTries": 5,
+		"genTries": 6,
 		"blockCount": 4,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 40,
 		"params": {
 			"sparse": false
@@ -185,7 +185,7 @@
 			"minecraft:stone",
 			"minecraft:gravel" 
 		],
-		"chunkChance": 50,
+		"chunkChance": 75,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -195,11 +195,11 @@
 		"name": "Silver",
 		"type": "ore",
 		"blocks": {
-			"base:ore_silver": 3
+			"base:ore_silver": 5
 		},
-		"genTries": 5,
+		"genTries": 6,
 		"blockCount": 4,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 40,
 		"params": {
 			"sparse": false
@@ -209,7 +209,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 40,
+		"chunkChance": 55,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -219,9 +219,9 @@
 		"name": "Copper",
 		"type": "ore",
 		"blocks": {
-			"base:ore_copper": 2
+			"base:ore_copper": 5
 		},
-		"genTries": 5,
+		"genTries": 6,
 		"blockCount": 7,
 		"minHeight": 35,
 		"maxHeight": 60,
@@ -233,7 +233,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 80,
+		"chunkChance": 90,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -247,7 +247,7 @@
 		},
 		"genTries": 7,
 		"blockCount": 2,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 30,
 		"params": {
 			"sparse": true
@@ -281,7 +281,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 85,
+		"chunkChance": 75,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -295,7 +295,7 @@
 		},
 		"genTries": 5,
 		"blockCount": 3,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 25,
 		"params": {
 			"sparse": false
@@ -305,7 +305,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 25,
+		"chunkChance": 50,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -318,7 +318,7 @@
 			"forestry:resources": 2
 		},
 		"genTries": 1,
-		"blockCount": 20,
+		"blockCount": 15,
 		"minHeight": 10,
 		"maxHeight": 64,
 		"params": {
@@ -342,11 +342,11 @@
 		"name": "Bauxite",
 		"type": "ore",
 		"blocks": {
-			"base:ore_bauxite": 1
+			"base:ore_bauxite": 3
 		},
 		"genTries": 5,
 		"blockCount": 4,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 50,
 		"params": {
 			"sparse": false
@@ -356,7 +356,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 50,
+		"chunkChance": 70,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -370,7 +370,7 @@
 		},
 		"genTries": 5,
 		"blockCount": 4,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 20,
 		"params": {
 			"sparse": true
@@ -394,7 +394,7 @@
 		},
 		"genTries": 5,
 		"blockCount": 5,
-		"minHeight": 5,
+		"minHeight": 1,
 		"maxHeight": 50,
 		"params": {
 			"sparse": false
