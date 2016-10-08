@@ -313,7 +313,7 @@
 
 	}, {
 		"name": "Apatite",
-		"type": "geode",
+		"type": "ore",
 		"blocks": {
 			"forestry:resources": 2
 		},
