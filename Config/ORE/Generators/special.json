@@ -29,7 +29,7 @@
 		"blocks": {
 			"minecraft:gold_ore": 3
 		},
-		"genTries": 3,
+		"genTries": 4,
 		"blockCount": 6,
 		"minHeight": 1,
 		"maxHeight": 40,
@@ -51,7 +51,7 @@
 		"name": "Coal",
 		"type": "ore",
 		"blocks": {
-			"minecraft:coal_ore": 6
+			"minecraft:coal_ore": 5
 		},
 		"genTries": 4,
 		"blockCount": 10,
