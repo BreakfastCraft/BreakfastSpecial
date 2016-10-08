@@ -1,11 +1,11 @@
 {
 	"ore": [{
 		"name": "Iron",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"minecraft:iron_ore": 5
 		},
-		"genTries": 7,
+		"genTries": 5,
 		"blockCount": 7,
 		"minHeight": 5,
 		"maxHeight": 70,
@@ -17,7 +17,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 100,
+		"chunkChance": 85,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -25,14 +25,38 @@
 
 	}, {
 		"name": "Gold",
-		"type": "vein",
+		"type": "ore",
 		"blocks": {
 			"minecraft:gold_ore": 3
 		},
-		"genTries": 7,
+		"genTries": 3,
 		"blockCount": 6,
 		"minHeight": 5,
 		"maxHeight": 40,
+		"params": {
+			"sparse": true
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone",
+			"minecraft:gravel"
+		],
+		"chunkChance": 25,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Coal",
+		"type": "ore",
+		"blocks": {
+			"minecraft:coal_ore": 6
+		},
+		"genTries": 4,
+		"blockCount": 10,
+		"minHeight": 5,
+		"maxHeight": 70,
 		"params": {
 			"sparse": false
 		},
@@ -48,48 +72,24 @@
 		"dimensions": []
 
 	}, {
-		"name": "Coal",
-		"type": "cluster",
-		"blocks": {
-			"minecraft:coal_ore": 6
-		},
-		"genTries": 7,
-		"blockCount": 10,
-		"minHeight": 5,
-		"maxHeight": 70,
-		"params": {
-			"sparse": false
-		},
-		"replaceable": [
-			"minecraft:dirt",
-			"minecraft:stone",
-			"minecraft:gravel"
-		],
-		"chunkChance": 100,
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionsRestriction": "none",
-		"dimensions": []
-
-	}, {
 		"name": "Diamond",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"minecraft:diamond_ore": 2
 		},
-		"genTries": 7,
+		"genTries": 3,
 		"blockCount": 5,
 		"minHeight": 5,
 		"maxHeight": 25,
 		"params": {
-			"sparse": false
+			"sparse": true
 		},
 		"replaceable": [
 			"minecraft:dirt",
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 70,
+		"chunkChance": 45,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -97,7 +97,7 @@
 
 	}, {
 		"name": "Lapis",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"minecraft:lapis_ore": 4
 		},
@@ -121,7 +121,7 @@
 
 	}, {
 		"name": "Emerald",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"minecraft:emerald_ore": 1
 		},
@@ -145,11 +145,11 @@
 
 	}, {
 		"name": "Redstone",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"minecraft:redstone_ore": 4
 		},
-		"genTries": 7,
+		"genTries": 3,
 		"blockCount": 7,
 		"minHeight": 5,
 		"maxHeight": 40,
@@ -161,7 +161,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 100,
+		"chunkChance": 55,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -169,11 +169,11 @@
 
 	}, {
 		"name": "Lead",
-		"type": "vein",
+		"type": "ore",
 		"blocks": {
 			"base:ore_lead": 2
 		},
-		"genTries": 7,
+		"genTries": 5,
 		"blockCount": 4,
 		"minHeight": 5,
 		"maxHeight": 40,
@@ -193,14 +193,38 @@
 
 	}, {
 		"name": "Silver",
-		"type": "vein",
+		"type": "ore",
 		"blocks": {
 			"base:ore_silver": 3
 		},
-		"genTries": 7,
+		"genTries": 5,
 		"blockCount": 4,
 		"minHeight": 5,
 		"maxHeight": 40,
+		"params": {
+			"sparse": false
+		},
+		"replaceable": [
+			"minecraft:dirt",
+			"minecraft:stone",
+			"minecraft:gravel"
+		],
+		"chunkChance": 40,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionsRestriction": "none",
+		"dimensions": []
+
+	}, {
+		"name": "Copper",
+		"type": "ore",
+		"blocks": {
+			"base:ore_copper": 2
+		},
+		"genTries": 5,
+		"blockCount": 7,
+		"minHeight": 35,
+		"maxHeight": 60,
 		"params": {
 			"sparse": false
 		},
@@ -216,32 +240,8 @@
 		"dimensions": []
 
 	}, {
-		"name": "Copper",
-		"type": "vein",
-		"blocks": {
-			"base:ore_copper": 5
-		},
-		"genTries": 7,
-		"blockCount": 7,
-		"minHeight": 5,
-		"maxHeight": 60,
-		"params": {
-			"sparse": false
-		},
-		"replaceable": [
-			"minecraft:dirt",
-			"minecraft:stone",
-			"minecraft:gravel"
-		],
-		"chunkChance": 100,
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionsRestriction": "none",
-		"dimensions": []
-
-	}, {
 		"name": "Platinum",
-		"type": "vein",
+		"type": "ore",
 		"blocks": {
 			"base:ore_platinum": 2
 		},
@@ -265,13 +265,13 @@
 
 	}, {
 		"name": "Tin",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
-			"base:ore_tin": 6
+			"base:ore_tin": 4
 		},
-		"genTries": 7,
+		"genTries": 5,
 		"blockCount": 8,
-		"minHeight": 5,
+		"minHeight": 35,
 		"maxHeight": 60,
 		"params": {
 			"sparse": false
@@ -289,11 +289,11 @@
 
 	}, {
 		"name": "Nickel",
-		"type": "vein",
+		"type": "ore",
 		"blocks": {
 			"base:ore_nickel": 3
 		},
-		"genTries": 7,
+		"genTries": 5,
 		"blockCount": 3,
 		"minHeight": 5,
 		"maxHeight": 25,
@@ -305,7 +305,7 @@
 			"minecraft:stone",
 			"minecraft:gravel"
 		],
-		"chunkChance": 50,
+		"chunkChance": 25,
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionsRestriction": "none",
@@ -340,7 +340,7 @@
 
 	}, {
 		"name": "Bauxite",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"base:ore_bauxite": 1
 		},
@@ -364,7 +364,7 @@
 
 	}, {
 		"name": "Uranium",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"base:ore_uranium": 1
 		},
@@ -388,7 +388,7 @@
 
 	}, {
 		"name": "Resonating Ore",
-		"type": "cluster",
+		"type": "ore",
 		"blocks": {
 			"deepresonance:resonating_ore": 3
 		},
