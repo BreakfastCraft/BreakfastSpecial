@@ -92,10 +92,10 @@
 
         "join_discord":
         {
-            "text" : "Join",
-            "posX" : -42,
+            "text" : "Join Our Discord",
+            "posX" : -100,
             "posY" : -158,
-            "width" : 40,
+            "width" : 90,
             "height" : 20,
             "action" :
             {
