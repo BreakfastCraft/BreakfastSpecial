@@ -35,7 +35,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : 10,
-            "posY" : -130,
+            "posY" : -160,
             "width" : 200,
             "height" : 20,
             "action" :
@@ -50,13 +50,28 @@
         {
             "text" : "menu.multiplayer",
             "posX" : 10,
-            "posY" : -100,
+            "posY" : -130,
             "width" : 200,
             "height" : 20,
             "action" :
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
+            },
+            "alignment" : "bottom_left"
+        },
+
+        "Report Issues":
+        {
+            "text" : "Report Issues",
+            "posX" : 10,
+            "posY" : -100,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/BreakfastCraft/BreakfastSpecial/issues"
             },
             "alignment" : "bottom_left"
         },
